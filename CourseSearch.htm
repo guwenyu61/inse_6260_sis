@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	ul.ul1{
+	background-color:grey;
+	list-style-type:none;
+	overflow:hidden;
+
+}
+	li{
+	
+	float:left;
+	color:black;
+	font-size:20px;
+}
+	li a{
+	display:block;
+	text-align:center;
+	padding:10px;
+	target=blank;	
+	text-decoration:none;
+	color:black;
+}
+	li a:hover{
+	background-color:Tomato;
+	}
+	li a:clicked{
+	background-color:transparent;	
+}
+
+	div.div1{
+	background-color:gery;
+	border: 2px solid blue;
+	width:400px;
+
+}
+
+	div.div2 {
+    width: 400px;
+    height: 170px;	
+    position: relative;
+    left: 450px;
+    top: -160px;
+    border: 3px solid #73AD21;
+	
+	
+}	
+	#b1{	
+	background-color:grey;
+	position:relative;
+	left:30px;
+	}
+
+	#b1:hover{	
+	background-color:Tomato;
+	}
+	#b0{	
+	background-color:grey;
+	position:relative;
+	left:300px;
+	}
+	#b0:hover{	
+	background-color:Tomato;
+	}
+	
+</style>
+</head>
+<body>
+	<ul class="ul1">
+	<li><a href="file:///C:/Users/Adminà/Desktop/StudentLoggedIn.htm">Main Page</a></li>
+	<li><a href="file:///C:/Users/Adminà/Desktop/StudentLoggedIn.htm">Accounts</a></li>
+	<li><a href="file:///C:/Users/Adminà/Desktop/StudentLoggedIn.htm">Services</a></li>
+	</ul>
+
+	<div class="div1">
+	<form style="padding:10px;color:purple;">
+	select the course ID please
+	<select name="CourseID" style="width:100px;">
+	<option value="" selected></option>
+	<option value="SOEN6461">SOEN6461</option>
+	<option value="SOEN6471">SOEN6471</option>
+	<option value="COMP6231">COMP6231</option>
+	<option value="INSE6260">INSE6260</option>
+	</select>
+	</form>
+
+	<form style="padding:10px;color:purple;">
+	select the the semester please
+	<select name="Semseter" style="width:100px;">
+	<option value="" selected></option>
+	<option value="Winter2018">Winter2018</option>
+	<option value="Summer2018">Summer2018</option>
+	<option value="Fall2018">Fall2018</option>
+	<option value="Winter2019">Winter2019</option>
+	</select>
+	</form>
+	
+
+	<form style="padding:10px;color:purple;">
+	select the department please
+	<select name="Department" style="width:100px;">
+	<option value="" selected></option>
+	<option value="INSE">INSE</option>
+	<option value="ENCS">ENCS</option>
+	<option value="COMP">COMP</option>
+	</select><br>
+	<button Id="b0"  type="submit" vlaue="Search"  >Search</button>
+	</form>
+	</div>
+	<br>
+	<div class="div2">
+	<form>
+	click to view your transcripts
+	<button  Id="b1"; type="input" name="View Transcripts"> View Transcripts </button>
+	</form>
+	</div>
+	
+</body>
+</html>
